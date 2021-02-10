@@ -12,3 +12,5 @@ Deixei separado na pasta raiz o front-end e back-end.
 Cada um pode ter seu server local iniciado de forma independentes. 
 E ambas pastas possuem Readme.me para auxilio.
 A comunicação entre servidores utiliza proxy já configurados. 
+
+Os itens serão listados listados após inserção de registro no banco de dados mysql.
