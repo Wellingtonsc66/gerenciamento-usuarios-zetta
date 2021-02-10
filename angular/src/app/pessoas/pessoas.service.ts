@@ -8,7 +8,7 @@ import {Pessoas} from './pessoas';
 })
 export class PessoasService {
 
-  private baseURL = 'api/cargos';
+  private baseURL = 'api/pessoas';
   constructor(private httpClient: HttpClient) { }
 
   getPessoas(): Observable<Pessoas[]>{

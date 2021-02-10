@@ -1,4 +1,5 @@
 export class Usuarios {
-    cargoId: number;
-    cargoDescricao: string;
+    usuarioId: number;
+    pessoaId: number;
+    usuarioDescricao: string;
 }

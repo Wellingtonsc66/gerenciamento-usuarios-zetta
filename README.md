@@ -1,6 +1,6 @@
 # Gerenciamento de usuários
 
-Infelizmente não conseguir concluir o desafio como eu queria, dentro do prazo concedido, pois trabalho e tenho diponível o fim de semana e a noite do dia após o trabalho.
+Infelizmente não conseguir concluir o desafio como eu queria dentro do prazo concedido, pois como estou trabalhando só tenho diponível o fim de semana e a noite do dia após o trabalho.
 Contudo o projeto está funcional.
 
 Desenvolvi utilizando Angular, bootstrap e spring boot(java).

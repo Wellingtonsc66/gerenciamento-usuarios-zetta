@@ -1,15 +1,23 @@
-<h4>Lista de cargos</h4>
+<h4>Lista de pessoas</h4>
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>Usuarios descrição</th>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Sexo</th>
+            <th>Data de nascimento</th>
+            <th>Data de cadastro</th>
             <th>Editar</th>
             <th>Excluir</th>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let pessoa of pessoas">
-            <!--<td>{{pessoa.cargoDescricao}}</td>-->
+            <td>{{pessoa.pessoaName}}</td>
+            <td>{{pessoa.pessoaCpf}}</td>
+            <td>{{pessoa.pessoaSexo}}</td>
+            <td>{{pessoa.dataNascimento}}</td>
+            <td>{{pessoa.dataCadastro}}</td>
             <td>
                 <button type="button" class="btn btn-primary btn-sm">Editar</button>
             </td>
