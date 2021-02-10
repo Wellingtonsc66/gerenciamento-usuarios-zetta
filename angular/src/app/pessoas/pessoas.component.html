@@ -1,0 +1,21 @@
+<h4>Lista de cargos</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Usuarios descrição</th>
+            <th>Editar</th>
+            <th>Excluir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pessoa of pessoas">
+            <!--<td>{{pessoa.cargoDescricao}}</td>-->
+            <td>
+                <button type="button" class="btn btn-primary btn-sm">Editar</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm">Excluir</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
